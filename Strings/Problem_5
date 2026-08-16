@@ -1,0 +1,7 @@
+def a(s1,s2):
+    a=s1.replace(s1[0],s2[0])
+    b=a.replace(a[1],s2[1])
+    c=s2.replace(s2[0],s1[0])
+    d=c.replace(c[1],s1[1])
+    return b+" "+d
+print(a(input(),input()))
