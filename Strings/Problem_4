@@ -1,0 +1,5 @@
+def str(s):
+    t=s.lower()
+    r=t.replace(t[0],"$")
+    return(t[0]+r.lstrip("$"))
+print(str(input()))
