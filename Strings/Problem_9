@@ -1,0 +1,6 @@
+def a(str1,n):
+  b=str1[:n]
+  c=str1[n+1:]
+  return b+c
+
+print(a(input(),int(input())))
