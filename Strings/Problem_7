@@ -1,0 +1,7 @@
+def character(str):
+  a=str.find("not")
+  b=str.find("poor")
+  c=b+4
+  return str.replace(str[a:c],"good")
+
+print(character(input()))
