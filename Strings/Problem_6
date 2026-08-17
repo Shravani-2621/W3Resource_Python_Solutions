@@ -1,0 +1,10 @@
+def str1(s):
+  if len(s)>=3:
+    if s.endswith("ing"):
+      return(s+"ly")
+    else:
+      return(s+"ing")
+  else:
+    return(s)
+
+print(str1(input()))
