@@ -1,0 +1,3 @@
+def a(s,w):
+    return s.count(w)
+print(a(input(),input()))
