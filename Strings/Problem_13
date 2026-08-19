@@ -1,0 +1,3 @@
+s=input()
+print("Hello! I am",s.lower())
+print("Hello! I am",s.upper())
