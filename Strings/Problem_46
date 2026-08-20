@@ -1,0 +1,5 @@
+def str1(s):
+  return s.split(" ")
+  # return list(a)
+
+print(str1(input()))
