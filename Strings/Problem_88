@@ -1,0 +1,21 @@
+def character(s):
+    lower = False
+    upper = False
+    number = False
+
+    for i in s:
+        if i.islower():
+            lower = True
+
+        if i.isupper():
+            upper = True
+
+        if i.isdigit():
+            number = True
+
+    if lower and upper and number and len(s) > 8:
+        return "Valid String"
+    else:
+        return "Invalid String"
+
+print(character(input()))
