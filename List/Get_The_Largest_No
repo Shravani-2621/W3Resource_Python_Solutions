@@ -1,0 +1,9 @@
+#Get largest of list
+def list1(a):
+  largest=a[0]
+  for i in a:
+    if i>largest:
+     largest=i
+  return largest  
+a=list(map(int,input().split()))     
+print(list1(a))  
