@@ -1,0 +1,4 @@
+#to get unique values from a list
+a=[45,56,83,83,92,92,55]
+b=set(a)
+print(list(b))
