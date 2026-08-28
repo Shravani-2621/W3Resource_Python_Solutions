@@ -1,0 +1,4 @@
+#find the index of list item
+a=list(map(int,input().split()))
+b=int(input())
+print(a.index(b))
