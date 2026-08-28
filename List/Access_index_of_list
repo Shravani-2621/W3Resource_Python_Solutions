@@ -1,0 +1,4 @@
+#Access index of the list
+nums=[1,2,3,4]
+for num_index, num_val in enumerate(nums):
+    print(num_index, num_val)
