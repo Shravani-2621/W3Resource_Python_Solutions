@@ -1,0 +1,7 @@
+#diff betn lists
+l1=[1,2,3,4]
+l2=[2,3,6,8,5]
+diff_l1_l2=list(set(l1) - set(l2))
+diff_l2_l1=list(set(l2) - set(l1))
+total_diff=diff_l1_l2 + diff_l2_l1
+print(total_diff)
