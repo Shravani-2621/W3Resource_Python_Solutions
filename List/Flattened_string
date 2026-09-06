@@ -1,0 +1,9 @@
+#Flatten a list
+a=[10,20,[30,40,50],60]
+b=a[2]
+a.remove([30,40,50])
+a.remove(60)
+for i in b:
+  a.append(i)
+a.append(60)  
+print(a)
