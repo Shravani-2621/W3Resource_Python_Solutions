@@ -1,0 +1,8 @@
+#Move zeroes to the end of the list
+list1=[1,4,5,9,0,0,5,7,0,8,0,0,0,0,6,9]
+for i in list1:
+  if i==0:
+   list1.remove(i)
+   list1.append(i)
+print(list1)   
+
