@@ -1,0 +1,15 @@
+#To check if list is sorted
+def list2(list1):
+    b = 0
+
+    while b < len(list1) - 1:
+        if list1[b] > list1[b + 1]:
+            return "False"
+        b = b + 1
+
+    return "True"
+
+
+c = list(map(int, input().split()))
+
+print(list2(c))
