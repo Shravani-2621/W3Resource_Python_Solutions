@@ -1,0 +1,10 @@
+#Min and max in heterogeneous list
+def list1(l1):
+ l=[]
+ for i in l1:
+  if type(i)==int:
+   l.append(i)
+ print("Min=",min(l))
+ print("Max=",max(l))
+l1=["Shravani",21,32,"Vinit"]
+print(list1(l1))
