@@ -1,0 +1,14 @@
+#Sort Mixed List
+l=[1,3,"cold",52,"sarah",21,"meow","rats",17]
+m=[]
+n=[]
+for i in l:
+  if type(i)==int:
+    m.append(i)    
+for i in l:
+  if type(i)==str:
+    n.append(i)
+m.sort()
+n.sort()    
+k=m+n        
+print(k)
