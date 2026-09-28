@@ -1,0 +1,6 @@
+#Index_of_Max_&_Min
+l=[1,2,3,4,5]
+a=max(l)
+b=min(l)
+print(l.index(a))
+print(l.index(b))
